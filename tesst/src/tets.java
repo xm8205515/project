@@ -14,7 +14,7 @@ public class tets {
 //		DrinkWaterIface df=ds.getDrinkWaterServerImplPort();sss
 //		System.out.println(df.findDrinkWater("", "", ""));
 		RadiationStationListImplService rmImplService=new RadiationStationListImplService();
-		RadiationStationListIface ri=rmImplService.getRadiationStationListImplPort();  
+		RadiationStationListIface ri=rmImplService.getRadiationStationListImplPort();
 		System.out.println(ri.getRadiationStationList("", "", "", ""));
 	}
 
