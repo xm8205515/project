@@ -15,7 +15,7 @@ public class tets {
 //		System.out.println(df.findDrinkWater("", "", ""));再试试
 		RadiationStationListImplService rmImplService=new RadiationStationListImplService();
 		RadiationStationListIface ri=rmImplService.getRadiationStationListImplPort();
-		System.out.println(ri.getRadiationStationList("", "", "", ""));
+		System.out.println(ri.getRadiationStationList("", "", "", ""));//测试
 	}
 
 }
